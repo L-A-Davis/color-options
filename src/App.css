@@ -2,27 +2,286 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+button {
+  margin: 10px;
+  padding: 7px;
+  font-size: 100%;
+  border: 1px solid #cdd2d6;
+}
+
+button:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+label {
+  margin: 5px;
+}
+/* page 1 styles  */
+
+.page-1 {
+  background-color: #f7faff;
+}
+
+.page-1 h1 {
+  background-color: #313f47;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 10px;
+}
+
+.page-1 .major-p {
+  background-color: #ffffff;
+  border: 1px solid #edf0f2;
+  width: 600px;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.page-1 .major-p:hover {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3), 0 5px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.page-1 h2 {
+  background-color: #095784;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 7px;
+  margin: 15px;
+}
+
+.page-1 .major {
+  background-color: #f46666;
+  color: #ffffff
+}
+
+.page-1 .major:hover {
+  background-color: #ff9a91;
+  color: black;
+ }
+
+.page-1 .minor {
+  background-color:#50c490;
+  color: #ffffff
+}
+
+.page-1 .minor:hover {
+  background-color: #81f9c3;
+  color: black
+}
+
+.page-1 .other-button-1 {
+  background-color: #3782ad;
+  color: #ffffff
+}
+
+.page-1 .other-button-1:hover {
+  background-color:#a4cfe8;
+  color: black
+}
+
+.page-1 .other-button-2 {
+    background-color: #6d7072;
+    color: #ffffff;
+}
+
+.page-1 .other-button-2:hover {
+    background-color: #c2c5c6;
+    color: black;
+}
+
+.page-1 h3 {
+  background-color: #4a4d4f;
+  color: #ffffff;
+  padding: 2px;
+  margin: 15px;
+}
+
+.page-1 .border-line{
+    border-top: 2px solid #cdd2d6;
+    border-bottom: 2px solid #3782ad;
+    height: 10px;
+}
+
+.page-1 .minor-p {
+  background-color: rgba(129, 249, 195, .1);
+  border: 1px solid #cdd2d6;
+  width: 400px;
+  padding: 5px;
+  margin: 15px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.page-1 .minor-p:hover{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 7px 0 rgba(0, 0, 0, 0.3);
+}
+
+.page-1 .input-1 {
+  background-color: rgba(164, 207, 232, .1);
+  border: 1px solid #cdd2d6;
+  width: 400px;
+  padding: 5px;
+  margin: 20px;
+}
+
+.page-1 .border-line2{
+    border-top: 2px solid #313f47;
+    border-bottom: 2px solid #6d7072;
+    height: 10px;
+}
+
+/* page 2 styles  */
+.page-2 h1 {
+  color: #313f47;
+  border-bottom: 3px solid #313f47;
+  padding: 10px;
+}
+
+.page-2 .major-p {
+  background-color: #ffffff;
+  /* border: 2px solid #edf0f2; */
+  width: 600px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.page-2 .major-p:hover, .page-2 .major-p-other:hover,
+.page-2 .major-p-other2:hover  {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1), 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.page-2 h2 {
+  background-color: #40474f;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 7px;
+  margin: 15px;
+}
+
+
+.page-2 .minor {
+  background-color: #d2dbe1;
+}
+
+.page-2 .minor:hover {
+  background-color: #eeeff0;
+}
+
+.page-2 .major {
+  background-color: #696969;
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+.page-2 .major:hover {
+  background-color: #e7e9f1;
+  color: #40474f;
 }
 
-.App-intro {
-  font-size: large;
+.page-2 .other-button-1 {
+  background-color: #9da8b6;
+  color: #eeeff0
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.page-2 .other-button-1:hover {
+  background-color: #efeeec;
+  color: black
+}
+
+.page-2 .other-button-2 {
+  background-color: #14233a;
+  color: #eeeff0
+}
+
+.page-2 .other-button-2:hover {
+  background-color: #e0ebfc;
+  color: #40474f;
+}
+
+.page-2 .border-line2 {
+  border-top: 2px solid #e7e9f1;
+  border-bottom: 2px solid #40474f;
+  height: 20px
+}
+
+.page-2 h3 {
+  color: #14233a;
+  border: 2px solid #696969;
+  padding: 5px;
+  margin: 15px;
+}
+
+.page-2 .minor-p {
+  background-color:rgba(238, 239, 240, .3);
+  color: #313f47;
+  border: 2px solid #eeeff0;
+  margin: 15px;
+}
+
+.page-2 .minor-p:hover {
+ box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.page-2 .major-p-other {
+ border: 2px solid #9da8b6;
+ margin: 15px;
+ padding: 10px;
+ width: 300px;
+}
+
+.page-2 .major-p-other2 {
+ border: 2px solid #696969;
+ /* border: 2px solid #14233a; */
+ background-color: #9da8b6;
+ color: white;
+ margin: 15px;
+ padding: 10px;
+ width: 300px;
+}
+
+.page-2 .input-2 {
+  /* background-color: rgba(238, 239, 240, 1) */
+  color: #14233a
+}
+
+.page-2 .border-line {
+  border-top: 2px solid #696969;
+  border-bottom: 2px solid #9da8b6;
+  height: 20px
+}
+
+
+/* page 3 styles  */
+.page-3 h1 {
+  background-color: #103882;
+  color: white;
+  padding: 1%;
 }
