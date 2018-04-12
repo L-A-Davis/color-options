@@ -4,6 +4,7 @@ import './App.css';
 import Page1 from './pages/Page1'
 import Page2 from './pages/Page2'
 import Page3 from './pages/Page3'
+import Page4 from './pages/Page4'
 import Home from './pages/Home'
 
 class App extends Component {
@@ -27,6 +28,9 @@ class App extends Component {
           <li>
            <Link to="/Page3">Page 3</Link>
           </li>
+          <li>
+           <Link to="/Page4">Page 4</Link>
+          </li>
         </ul>
 
         <hr />
@@ -34,6 +38,7 @@ class App extends Component {
         <Route exact path="/Page1" component={Page1} />
         <Route exact path="/Page2" component={Page2} />
         <Route exact path="/Page3" component={Page3} />
+          <Route exact path="/Page4" component={Page4} />
       </div>
       </Router>
     );

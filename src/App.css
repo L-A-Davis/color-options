@@ -31,7 +31,7 @@ button {
   margin: 10px;
   padding: 7px;
   font-size: 100%;
-  border: 1px solid #cdd2d6;
+  /* border: 1px solid #cdd2d6; */
 }
 
 button:hover {
@@ -77,6 +77,20 @@ label {
   border: 2px solid #ffffff;
   padding: 7px;
   margin: 15px;
+}
+
+.page-1 .major,
+.page-1 .minor,
+.page-1 .other-button-1,
+.page-1 .other-button-2 {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 3px 7px 0 rgba(0, 0, 0, 0.2);
+}
+
+.page-1 .major:hover,
+.page-1 .minor:hover,
+.page-1 .other-button-1:hover,
+.page-1 .other-button-2:hover {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 14px 0 rgba(0, 0, 0, 0.4);
 }
 
 .page-1 .major {
@@ -187,6 +201,19 @@ label {
   margin: 15px;
 }
 
+.page-2 .major,
+.page-2 .minor,
+.page-2 .other-button-1,
+.page-2 .other-button-2 {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 3px 7px 0 rgba(0, 0, 0, 0.2);
+}
+
+.page-2 .major:hover,
+.page-2 .minor:hover,
+.page-2 .other-button-1:hover,
+.page-2 .other-button-2:hover {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 14px 0 rgba(0, 0, 0, 0.4);
+}
 
 .page-2 .minor {
   background-color: #d2dbe1;
@@ -234,37 +261,43 @@ label {
 
 .page-2 h3 {
   color: #14233a;
-  border: 2px solid #696969;
+  border-bottom: 2px solid #696969;
   padding: 5px;
   margin: 15px;
+  box-shadow: 0 1px 2px -2px rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .page-2 .minor-p {
   background-color:rgba(238, 239, 240, .3);
   color: #313f47;
-  border: 2px solid #eeeff0;
+  /* border: 2px solid #eeeff0; */
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
   margin: 15px;
+  width: 600px;
+  padding: 10px;
 }
 
 .page-2 .minor-p:hover {
- box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+ box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.3);
 }
 
 .page-2 .major-p-other {
- border: 2px solid #9da8b6;
+ /* border: 2px solid #9da8b6; */
  margin: 15px;
  padding: 10px;
  width: 300px;
+ box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .page-2 .major-p-other2 {
- border: 2px solid #696969;
+ /* border: 2px solid #696969; */
  /* border: 2px solid #14233a; */
  background-color: #9da8b6;
  color: white;
  margin: 15px;
  padding: 10px;
  width: 300px;
+ box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .page-2 .input-2 {
@@ -280,8 +313,271 @@ label {
 
 
 /* page 3 styles  */
+
+.page-3 {
+  background-color: #f9fffc;
+}
+
 .page-3 h1 {
-  background-color: #103882;
+  background-color: #283a39;
   color: white;
   padding: 1%;
+}
+
+.page-3 h2 {
+  background-color: #adb2b0;
+  color: white;
+  padding: 1%;
+}
+
+.page-3 h3 {
+  background-color: #634236;
+  color: white;
+  padding: 1%;
+  color: white;
+}
+
+.page-3 .major-p {
+  background-color: #ffffff;
+  /* border: 2px solid #edf0f2; */
+  width: 600px;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 0 1px 2px 0 rgba(40, 58, 57, 0.1), 0 3px 10px 0 rgba(40, 58, 57, 0.2);
+}
+
+.page-3 .major-p:hover, .page-3 .major-p-other:hover,
+.page-3 .major-p-other2:hover  {
+  box-shadow: 0 3px 6px 0 rgba(40, 58, 57, 0.1), 0 5px 20px 0 rgba(40, 58, 57, 0.2);
+}
+
+.page-3 .major,
+.page-3 .minor,
+.page-3 .other-button-1,
+.page-3 .other-button-2 {
+  box-shadow: 0 1px 3px 0 rgba(40, 58, 57, 0.1), 0 3px 7px 0 rgba(40, 58, 57, 0.2);
+}
+
+.page-3 .major:hover,
+.page-3 .minor:hover,
+.page-3 .other-button-1:hover,
+.page-3 .other-button-2:hover {
+  box-shadow: 0 3px 6px 0 rgba(40, 58, 57, 0.2), 0 6px 14px 0 rgba(40, 58, 57, 0.4);
+}
+
+
+.page-3 .major {
+  background-color: #a8e0c9;
+}
+
+.page-3 .major:hover {
+  background-color: #c3dbd1;
+}
+
+
+.page-3 .minor {
+  background-color: #d88b6c
+}
+
+.page-3 .minor:hover {
+  background-color: #d3a694;
+}
+
+.page-3 .other-button-1 {
+  background-color: #d9dbda;
+}
+
+.page-3 .other-button-1:hover {
+  background-color: #f7fcf9;
+}
+
+.page-3 .other-button-2 {
+  background-color: #edd9a3;
+}
+
+.page-3 .other-button-2:hover {
+  background-color: #ede2c7;
+}
+
+.page-3 .border-line2 {
+  border-top: 2px solid #657a71;
+  border-bottom: 2px solid #d9dbda;
+  height: 20px
+}
+
+.page-3 .border-line {
+  border-top: 2px solid #634236;
+  border-bottom: 2px solid #ede2c7;
+  height: 20px
+}
+
+.page-3 .minor-p {
+  background-color:rgba(168, 224, 201, .2);
+  color: #313f47;
+  /* border: 2px solid #d9dbda; */
+  margin: 15px;
+  box-shadow: 0 1px 2px 0 rgba(40, 58, 57, 0.1), 0 3px 10px 0 rgba(40, 58, 57, 0.2);
+  padding: 1%;
+}
+
+.page-3 .minor-p:hover {
+ box-shadow: 0 3px 5px 0 rgba(40, 58, 57, 0.2), 0 7px 12px 0 rgba(40, 58, 57, 0.3);
+}
+
+.page-3 .major-p-other {
+ /* border: 2px solid #283a39; */
+ background-color: #f7fcf9;
+ margin: 15px;
+ padding: 10px;
+ width: 300px;
+  box-shadow: 0 1px 2px 0 rgba(40, 58, 57, 0.1), 0 3px 10px 0 rgba(40, 58, 57, 0.2);
+}
+
+.page-3 .major-p-other2 {
+ /* border: 2px solid #adb2b0; */
+ /* border: 2px solid #14233a; */
+ color: #283a39;
+  background-color: #ffffff;
+ margin: 15px;
+ padding: 10px;
+ width: 300px;
+ box-shadow: 0 1px 2px 0 rgba(40, 58, 57, 0.1), 0 3px 10px 0 rgba(40, 58, 57, 0.2);
+}
+
+.page-3 .input-2 {
+  /* background-color: rgba(238, 239, 240, 1) */
+  color: #14233a
+}
+
+/* page 4 styles */
+.page-4 {
+  background-color: #f7f9fc
+  /* #f4faff */
+}
+
+.page-4 h1 {
+  background-color: #3a3d42;
+  color: white;
+  padding: 1%;
+}
+
+.page-4 h2 {
+  /* background-color: #0f2856; */
+  /* background-color: #253f70; */
+  background-color: #27455b;
+  color: white;
+  padding: 1%;
+}
+
+.page-4 h3 {
+  /* background-color: #0f2856; */
+  /* background-color: #253f70; */
+  background-color: #959fa8;
+  color: white;
+  padding: 1%;
+}
+
+.page-4 .major-p {
+  background-color: white;
+  box-shadow: 0 1px 2px 0 rgba(39, 69, 91, 0.1), 0 3px 10px 0 rgba(39, 69, 91, 0.2);
+  width: 600px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.page-4 .major-p:hover {
+  box-shadow: 0 3px 6px 0 rgba(39, 69, 91, 0.2), 0 6px 15px 0 rgba(39, 69, 91, 0.3);
+}
+
+
+.page-4 .major {
+  background-color:#a08000;
+  color: white;
+  box-shadow: 0 1px 2px 0 rgba(39, 69, 91, 0.1), 0 3px 10px 0 rgba(39, 69, 91, 0.2);
+  border: none;
+}
+
+.page-4 .major:hover {
+  background-color:#e0d3a1;
+  color: black;
+  box-shadow: 0 2px 4px 0 rgba(39, 69, 91, 0.2), 0 6px 15px 0 rgba(39, 69, 91, 0.4);
+}
+
+
+.page-4 .minor {
+  background-color:#5b2746;
+  color: white;
+  box-shadow: 0 1px 2px 0 rgba(39, 69, 91, 0.1), 0 3px 10px 0 rgba(39, 69, 91, 0.2);
+  border: none;
+}
+
+.page-4 .minor:hover {
+  background-color:#ceb1be;
+  color: black;
+  box-shadow: 0 2px 4px 0 rgba(39, 69, 91, 0.2), 0 6px 15px 0 rgba(39, 69, 91, 0.4);
+}
+
+.page-4 .other-button-1 {
+  background-color:#3e996e;
+  color: white;
+  box-shadow: 0 1px 2px 0 rgba(39, 69, 91, 0.1), 0 3px 10px 0 rgba(39, 69, 91, 0.2);
+  border: none;
+}
+
+.page-4 .other-button-1:hover {
+  background-color:#a5d3bd;
+  color: black;
+  box-shadow: 0 2px 4px 0 rgba(39, 69, 91, 0.2), 0 6px 15px 0 rgba(39, 69, 91, 0.4);
+}
+
+.page-4 .other-button-2 {
+  background-color:#8a9196;
+  color: white;
+  box-shadow: 0 1px 2px 0 rgba(39, 69, 91, 0.1), 0 3px 10px 0 rgba(39, 69, 91, 0.2);
+  border: none;
+}
+
+.page-4 .other-button-2:hover {
+  background-color:#e1eaef;
+  color: black;
+  box-shadow: 0 2px 4px 0 rgba(39, 69, 91, 0.2), 0 6px 15px 0 rgba(39, 69, 91, 0.4);
+}
+.page-4 .minor-p {
+  background-color: rgba(224, 211, 161, .15);
+  box-shadow: 0 1px 2px 0 rgba(39, 69, 91, 0.1), 0 3px 10px 0 rgba(39, 69, 91, 0.2);
+  border: none;
+  width: 600px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.page-4 .minor-p:hover, .page-4 .major-p-other:hover, .page-4 .major-p-other2:hover {
+  box-shadow: 0 2px 4px 0 rgba(39, 69, 91, 0.2), 0 6px 15px 0 rgba(39, 69, 91, 0.4);
+}
+
+.page-4 .border-line2 {
+  border-top: 2px solid  #27455b;
+  border-bottom: 2px solid #959fa8;
+  height: 20px
+}
+
+.page-4 .border-line {
+  border-top: 2px solid  #5b2746;
+  border-bottom: 2px solid #e1eaef;
+  height: 20px
+}
+
+.page-4 .major-p-other{
+  background-color: #ffffff;
+  margin: 15px;
+  padding: 10px;
+  width: 300px;
+  box-shadow: 0 1px 2px 0 rgba(39, 69, 91, 0.1), 0 3px 10px 0 rgba(39, 69, 91, 0.2);
+}
+.page-4 .major-p-other2{
+  background-color:rgba(225, 234, 239, .3);
+  margin: 15px;
+  padding: 10px;
+  width: 300px;
+  box-shadow: 0 1px 2px 0 rgba(39, 69, 91, 0.1), 0 3px 10px 0 rgba(39, 69, 91, 0.2);
 }
